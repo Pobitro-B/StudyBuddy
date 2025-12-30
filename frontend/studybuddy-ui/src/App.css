@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f7f8fc;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+}
+
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+.flashcard {
+  border-left: 4px solid #6366f1;
+  padding-left: 14px;
+  margin-bottom: 12px;
+}
